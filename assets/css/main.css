@@ -1,6 +1,11 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Oleo+Script:400|Open+Sans:300,300italic,600,600italic,800");
 
+@font-face {
+  font-family: "My Custom Font";
+  src: url("https://https://phytochemtalks.github.io/assets/webfonts/ObadiahProRegular.ttf") format("truetype");
+}
+
 /*
 	Verti by HTML5 UP
 	html5up.net | @ajlkn
@@ -1941,7 +1946,7 @@ input, select, textarea {
 			background: #66c2a5;
 			color: #fff;
 			border-radius: 6px;
-			font-family: 'ObadiahProRegular';
+			font-family: 'My Custom Font', serif;
 			font-weight: 400;
 			padding: 0.25em 0.2em 0.25em 0.2em;
 			font-size: 3.25em;
