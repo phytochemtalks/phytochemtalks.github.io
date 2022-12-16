@@ -1939,10 +1939,10 @@ input, select, textarea {
 	}
 
 		#logo h1 {
-			background: #005a32; /* COLOR THING*/
+			background: #444444; /* COLOR THING*/
 			color: #fff;
 			border-radius: 6px;
-			font-family: 'My Custom Font', serif;
+			font-family: 'Font Awesome 5 Free', 'My Custom Font', serif;
 			font-weight: 400;
 			padding: 0.25em 0.2em 0.25em 0.2em;
 			font-size: 3.25em;
@@ -2420,7 +2420,7 @@ input, select, textarea {
 					height: 54px;
 					line-height: 54px;
 					border-top: solid 1px #e8e8e8;
-					color: #696969;
+					color: #ffffff; /* COLOR THING*/
 				}
 
 					#navPanel .link:first-child {
