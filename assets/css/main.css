@@ -1633,7 +1633,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background: #005a32; /* COLOR THING*/
+		background: #24392A; /* COLOR THING*/
 		color: #fff;
 		text-decoration: none;
 		border-radius: 6px;
@@ -1914,7 +1914,7 @@ input, select, textarea {
 	#features-wrapper {
 		padding: 3em 0 3em 0;
 /*		background: url("https://phytochemtalks.github.io/images/leaves.jpg") repeat center;*/
-		background: #17362C;
+		background: #24392A; /* COLOR THING */
 	}
 
 	#main-wrapper {
@@ -1941,7 +1941,7 @@ input, select, textarea {
 
 		#logo h1 {
 			background: rgba(68, 68, 68, 0.5); /* COLOR THING*/
-			color: #fff;
+			color: #ffffff;
 			border-radius: 6px;
 			font-family: 'Open Sans', 'My Custom Font', sans-serif;
 			font-weight: 400;
