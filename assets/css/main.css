@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: "My Custom Font";
-  src: url("https://phytochemtalks.github.io/assets/webfonts/GROCHES.ttf") format("truetype");
+  src: url("https://phytochemtalks.github.io/assets/webfonts/The Brooklyn Bold.ttf") format("truetype");
 }
 
 html, body, div, span, applet, object,
@@ -1942,7 +1942,7 @@ input, select, textarea {
 			background: #005a32; /* COLOR THING*/
 			color: #fff;
 			border-radius: 6px;
-/*			font-family: 'Open Sans', serif;*/
+			font-family: 'My Custom Font', serif;
 			font-weight: 400;
 			padding: 0.25em 0.2em 0.25em 0.2em;
 			font-size: 3.25em;
