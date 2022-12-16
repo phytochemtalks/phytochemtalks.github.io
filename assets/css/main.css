@@ -1941,6 +1941,7 @@ input, select, textarea {
 
 		#logo h1 {
 			background: #444444; /* COLOR THING*/
+			opacity: 0.5;
 			color: #fff;
 			border-radius: 6px;
 			font-family: 'Open Sans', 'My Custom Font', sans-serif;
