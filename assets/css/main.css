@@ -1908,7 +1908,7 @@ input, select, textarea {
 
 	#header-wrapper {
 		padding: 4.5em 0 3em 0;
-		background-image: url("images/leaves.jpg");
+		background: url("images/leaves.jpg") center;
 	}
 
 	#features-wrapper {
