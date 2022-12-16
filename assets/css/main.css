@@ -1633,7 +1633,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background: #41ab5d; /* COLOR THING*/
+		background: #005a32; /* COLOR THING*/
 		color: #fff;
 		text-decoration: none;
 		border-radius: 6px;
@@ -1937,7 +1937,7 @@ input, select, textarea {
 	}
 
 		#logo h1 {
-			background: #41ab5d;
+			background: #005a32; /* COLOR THING*/
 			color: #fff;
 			border-radius: 6px;
 			font-family: 'Helvetica', serif;
