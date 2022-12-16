@@ -1937,10 +1937,10 @@ input, select, textarea {
 	}
 
 		#logo h1 {
-			background: #66c2a5;
+			background: #41ab5d;
 			color: #fff;
 			border-radius: 6px;
-			font-family: 'My Custom Font', serif;
+			font-family: 'Helvetica', serif;
 			font-weight: 400;
 			padding: 0.25em 0.2em 0.25em 0.2em;
 			font-size: 3.25em;
