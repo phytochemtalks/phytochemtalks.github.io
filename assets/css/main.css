@@ -1626,7 +1626,7 @@ input, select, textarea {
 	    display: flex;                /* Enables flexbox for horizontal alignment */
 	    justify-content: space-between; /* Spaces buttons evenly */
 	    gap: 10px;                    /* Adds space between buttons */
-	    margin-top: -20px;            /* Move the buttons upwards by reducing margin */
+	    margin-top: -40px;            /* Move the buttons upwards by reducing margin */
 	    padding-bottom: 0;            /* Removes any extra padding at the bottom */
 	}
 
