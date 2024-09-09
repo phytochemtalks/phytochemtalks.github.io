@@ -1621,6 +1621,19 @@ input, select, textarea {
 
 /* Button */
 
+	.button-container {
+    display: flex; /* This enables flexbox for horizontal alignment */
+    justify-content: space-between; /* Space between the buttons */
+    gap: 10px; /* Optional: Adds some space between the buttons */
+	}
+
+	.button-container a {
+	    text-align: center; /* Ensures the text inside buttons is centered */
+	    flex-grow: 1; /* Ensures buttons have equal width */
+	    padding: 10px; /* Adjusts the spacing inside the buttons */
+	}
+
+
 	input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
