@@ -1621,17 +1621,27 @@ input, select, textarea {
 
 /* Button */
 
+	/* Button Container */
 	.button-container {
-    display: flex; /* This enables flexbox for horizontal alignment */
-    justify-content: space-between; /* Space between the buttons */
-    gap: 10px; /* Optional: Adds some space between the buttons */
+	    display: flex;            /* Enables flexbox for horizontal alignment */
+	    justify-content: space-between; /* Spaces buttons evenly */
+	    gap: 10px;                /* Adds space between buttons (if multiple) */
 	}
 
-	.button-container a {
-	    text-align: center; /* Ensures the text inside buttons is centered */
-	    flex-grow: 1; /* Ensures buttons have equal width */
-	    padding: 10px; /* Adjusts the spacing inside the buttons */
+	.button-container a, 
+	.button-container button {
+	    flex-grow: 1;             /* Ensures buttons have equal width */
+	    text-align: center;       /* Centers text inside the buttons */
+	    padding: 10px;            /* Adjusts the spacing inside the buttons */
+	    display: inline-block;    /* Ensures buttons stay inline and properly styled */
+	    text-decoration: none;    /* Removes default underline from links */
 	}
+
+	.button-container a:hover, 
+	.button-container button:hover {
+	    background-color: #10a0d5; /* Hover state for buttons */
+	}
+
 
 
 	input[type="button"],
