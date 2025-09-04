@@ -17,11 +17,9 @@
 
 			<header id="header-wrapper">
 				<div id="header" class="container">
-
 					<div id="logo">
 						<h2><a href="index.html">PhytochemTalks</a></h2>
 					</div>
-
 					<nav id="nav">
 						<ul>
 							<li>
@@ -36,7 +34,6 @@
 							<li><a href="https://www.youtube.com/@phytochemtalks4896/videos">Recordings</a></li>
 						</ul>
 					</nav>
-
 				</div>
 			</header>
 
@@ -44,31 +41,26 @@
 				<div class="container">
 					<div class="row gtr-200">
 						<div class="col-4 col-12-medium">
-
 							<aside id="sidebar">
 								<section class="widget thumbnails">
 									<div class="grid">
 										<div class="row gtr-50">
-											<div class="col-6"><a href="#" class="image fit"><img src="images/molecules.jpg" alt="" /></a></div>
-											<div class="col-6"><a href="#" class="image fit"><img src="images/succulent.jpg" alt="" /></a></div>
-											<div class="col-6"><a href="#" class="image fit"><img src="images/vials.jpg" alt="" /></a></div>
-											<div class="col-6"><a href="#" class="image fit"><img src="images/sorghum.jpg" alt="" /></a></div>
+											<div class="col-6"><a href="#" class="image fit"><img src="images/molecules.jpg" alt="Molecules" /></a></div>
+											<div class="col-6"><a href="#" class="image fit"><img src="images/succulent.jpg" alt="Succulent plant" /></a></div>
+											<div class="col-6"><a href="#" class="image fit"><img src="images/vials.jpg" alt="Vials in a lab" /></a></div>
+											<div class="col-6"><a href="#" class="image fit"><img src="images/sorghum.jpg" alt="Sorghum crop" /></a></div>
 										</div>
 									</div>
 								</section>
 							</aside>
-
 						</div>
 						<div class="col-8 col-12-medium imp-medium">
-
 							<section id="content">
 								<h2>A virtual seminar series for the phytochemistry community.</h2>
 								<p>Talks at 12pm EST every other Friday.</p>
 								<p>Organized by: Lars Kruse (University of British Columbia, Canada), Gaurav Moghe (Cornell University, USA), Swathi Nadakuduti (University of Florida, Gainesville), Thu-Thuy Dang (University of British Columbia, Okanagan)</p>
 							</section>
-
 						</div>
-
 						<div class="button-container">
 							<a href="#lineup-25" class="button icon solid fa-arrow-circle-right">Fall 2025 Lineup</a>
 							<a href="#lineup-2425" class="button icon solid fa-arrow-circle-right">Fall 2024 / Spring 2025 Lineup</a>
@@ -81,25 +73,17 @@
 
 			<div id="features-wrapper">
 				<div class="container">
-					
 					<h2 id="lineup-25" style="text-align: center; margin-top: 2em;">Fall 2025 Lineup</h2>
 					<div id="lineup-2025-container" class="row"></div>
-					
 					<hr/>
-
 					<h2 id="lineup-2425" style="text-align: center; margin-top: 2em;">Fall 2024 / Spring 2025 Lineup</h2>
 					<div id="lineup-2024-container" class="row"></div>
-
 					<hr/>
-					
 					<h2 id="lineup-2324" style="text-align: center; margin-top: 2em;">Fall 2023 / Spring 2024 Lineup</h2>
 					<div id="lineup-2023-container" class="row"></div>
-
 					<hr/>
-					
 					<h2 id="lineup-spring2023" style="text-align: center; margin-top: 2em;">Spring 2023 Lineup</h2>
 					<div id="lineup-spring2023-container" class="row"></div>
-
 				</div>
 			</div>
 
@@ -140,12 +124,11 @@
 		<script src="assets/js/main.js"></script>
 
 		<script>
-			
 // ### HOW TO EDIT SPEAKERS ###
 //
 // 1. All speaker information is stored in this list called `speakerData`.
 // 2. Each speaker is an object inside curly braces `{}`, separated by a comma.
-// 3. To ADD a new speaker, copy an existing `{...},` block and paste it at the top of the relevant section.
+// 3. To ADD a new speaker, copy an existing `{...},` block and paste it into the correct section.
 // 4. To EDIT a speaker, just change the text in the quotes for that speaker.
 // 5. To use a BLANK image, use "images/speakers/placeholder.jpg".
 // 6. The `lineup` property determines which section the speaker appears in. Use one of these:
@@ -183,10 +166,39 @@ const speakerData = [
 		image: "images/speakers/yding.jpg",
 		lineup: "2025"
 	},
-	// Add more Fall 2025 speakers here...
-
+    
 
 	// =========== FALL 2024 / SPRING 2025 LINEUP ===========
+	{
+		name: "John Jelesko",
+		title: "Associate Professor",
+		university: "Virginia Tech",
+		date: "September 13th, 2024",
+		talk: "Itching to understand poison ivy (Toxicodendron radicans) urushiol biology",
+		website: "https://spes.vt.edu/faculty-staff/faculty/jelesko-john.html",
+		image: "images/speakers/jjelesko.jpg",
+		lineup: "2024"
+	},
+	{
+		name: "Guy Polturak",
+		title: "Assistant Professor",
+		university: "The Hebrew University of Jerusalem",
+		date: "September 27th, 2024",
+		talk: "From the colors of beet to defenses in wheat",
+		website: "https://guypol6.wixsite.com/polturak-lab",
+		image: "images/speakers/gpolturak.jpg",
+		lineup: "2024"
+	},
+	{
+		name: "Tim Rieseberg",
+		title: "Graduate student",
+		university: "Georg-August-Universität Göttingen",
+		date: "October 11th, 2024",
+		talk: "Carophyta: Exploring the evolutionary roots for the biosynthesis of (apo)carotenoids and their role in plastid-mediated stress response in Streptophyta",
+		website: "https://www.uni-goettingen.de/en/tim+rieseberg/630338.html",
+		image: "images/speakers/trieseberg.jpg",
+		lineup: "2024"
+	},
 	{
 		name: "Mingxun Wang",
 		title: "Assistant Professor",
@@ -211,14 +223,22 @@ const speakerData = [
 		name: "Meret Huber",
 		title: "Professor",
 		university: "University of Mainz",
-		date: "November 22nd, 2024",
+		date: "November 22th, 2024",
 		talk: "Transgenerational plasticity in plant defense against herbivores",
 		website: "https://researchprofiles.uni-mainz.de/16333-meret-huber",
 		image: "images/speakers/mhuber.jpg",
 		lineup: "2024"
 	},
-	// Add more 2024/2025 speakers here...
-
+	{
+		name: "Marc Libault",
+		title: "Professor",
+		university: "University of Missouri",
+		date: "December 6th, 2024",
+		talk: "Towards a Cell-Type Resolution Understanding of the Regulation of Metabolomic Pathways",
+		website: "https://cafnr.missouri.edu/directory/marc-libault/",
+		image: "images/speakers/mlibault.jpg",
+		lineup: "2024"
+	},
 
 	// =========== FALL 2023 / SPRING 2024 LINEUP ===========
 	{
@@ -241,9 +261,108 @@ const speakerData = [
 		image: "images/speakers/srao.jpg",
 		lineup: "2023"
 	},
-	// Add more 2023/2024 speakers here...
-	
+	{
+		name: "Gabrielle Wyatt",
+		title: "PhD student, Zerbe lab",
+		university: "University of California - Davis",
+		date: "January 10th, 2024",
+		talk: "Root diterpenoids: uncharted chemical diversity",
+		website: "https://zerbelab.weebly.com/",
+		image: "images/speakers/GW2.jpg",
+		lineup: "2023"
+	},
+	{
+		name: "TBD",
+		title: "TBD",
+		university: "TBD",
+		date: "TBD",
+		talk: "TBD",
+		website: "https://phytochemtalks.github.io",
+		image: "images/speakers/placeholder.jpg",
+		lineup: "2023"
+	},
 
+	{
+		name: "Prashant Sonawane",
+		title: "Assistant Professor",
+		university: "University of Missouri - Columbia",
+		date: "February 7th, 2025",
+		talk: "Harnessing the steroidal molecules of plants",
+		website: "https://cafnr.missouri.edu/directory/prashant-d-sonawane/",
+		image: "images/speakers/Sonawane_Prashant-300x300.png",
+		lineup: "2025"
+	},
+	{
+		name: "Yitong Liu",
+		title: "Senior Research Pharmacologist",
+		university: "Food and Drugs Administration (FDA)",
+		date: "February 21st, 2025",
+		talk: "Evaluating ADME of botanical constituents using in silico methods",
+		website: "https://www.linkedin.com/in/liuyitong1/",
+		image: "images/speakers/YL.jpg",
+		lineup: "2025"
+	},
+	{
+		name: "Guillermo H Jimenez Aleman",
+		title: "Assistant Professor",
+		university: "New Jersey Institute of Technology",
+		date: "March 7th, 2025",
+		talk: "Two conserved omega-3 fatty acid desaturases control jasmonate biosynthesis in Marchantia",
+		website: "https://www.researchgate.net/profile/Guillermo-Jimenez-Aleman",
+		image: "images/speakers/Guillermo-Jimenez-Aleman.jpg",
+		lineup: "2025"
+	},
+	{
+		name: "Aileen Berasategui Lopez",
+		title: "Assistant Professor",
+		university: "Amsterdam Institute for Life and Environment",
+		date: "March 21st, 2025",
+		talk: "Ecology, origin and evolution of a defensive beetle-fungal symbiosis",
+		website: "https://www.berasateguilab.com/",
+		image: "images/speakers/aberasategui.jpg",
+		lineup: "2025"
+	},
+	{
+		name: "Franziska Beran",
+		title: "Leibniz Institute of Vegetable and Ornamental Crops",
+		university: "",
+		date: "April 4th, 2025",
+		talk: "How plant specialized metabolites influence multitrophic interactions via insect sequestration",
+		website: "https://igzev.de/en/research/research-groups/biotic-2",
+		image: "images/speakers/fberan.jpg",
+		lineup: "2025"
+	},
+	{
+		name: "TBD",
+		title: "TBD",
+		university: "",
+		date: "April 18th, 2025",
+		talk: "TBD",
+		website: "",
+		image: "images/speakers/placeholder.jpg",
+		lineup: "2025"
+	},
+	{
+		name: "Allison Walker",
+		title: "Assistant Professor",
+		university: "Vanderbilt University",
+		date: "May 2nd, 2025",
+		talk: "Artificial Intelligence Guided Natural Product Discovery",
+		website: "https://lab.vanderbilt.edu/walker-lab/",
+		image: "images/speakers/awalker.jpg",
+		lineup: "2025"
+	},
+	{
+		name: "Karine Prado",
+		title: "Michigan State University",
+		university: "",
+		date: "May 16th, 2025",
+		talk: "TBD [Speaker works on metabolite annotation and water stress]",
+		website: "https://www.rheelab.org/",
+		image: "images/speakers/karinePrado.png",
+		lineup: "2025"
+	},
+	
 	// =========== SPRING 2023 LINEUP ===========
 	{
 		name: "Boas Pucker",
@@ -264,8 +383,7 @@ const speakerData = [
 		website: "https://shuklagroup.org/people/austin-t-weigle/",
 		image: "images/speakers/aweigle.jpg",
 		lineup: "spring2023"
-	},
-	// Add more Spring 2023 speakers here...
+	}
 ];
 
 
@@ -274,16 +392,14 @@ const speakerData = [
 // ====================================================================================
 
 document.addEventListener('DOMContentLoaded', function() {
-	// Get the container elements from the HTML
-	const container2025 = document.getElementById('lineup-2025-container');
-	const container2024 = document.getElementById('lineup-2024-container');
-	const container2023 = document.getElementById('lineup-2023-container');
-	const containerSpring2023 = document.getElementById('lineup-spring2023-container');
+	const containers = {
+		'2025': document.getElementById('lineup-2025-container'),
+		'2024': document.getElementById('lineup-2024-container'),
+		'2023': document.getElementById('lineup-2023-container'),
+		'spring2023': document.getElementById('lineup-spring2023-container')
+	};
 
-	// Loop through each speaker in the data list
 	speakerData.forEach(speaker => {
-		// This is the HTML template for a single speaker card.
-		// It uses the data from the list above to fill in the details.
 		const speakerCardHTML = `
 			<div class="col-4 col-12-medium">
 				<section class="box feature">
@@ -296,26 +412,14 @@ document.addEventListener('DOMContentLoaded', function() {
 							<p>${speaker.date}</p>
 						</header>
 						<p>${speaker.talk}</p>
-						${speaker.website ? `<a href="${speaker.website}" target="_blank">Website</a>` : ''}
+						${speaker.website ? `<a href="${speaker.website}" target="_blank" rel="noopener noreferrer">Website</a>` : ''}
 					</div>
 				</section>
-			</div>
-		`;
+			</div>`;
 
-		// Place the speaker card in the correct container based on its 'lineup' property
-		switch (speaker.lineup) {
-			case '2025':
-				container2025.innerHTML += speakerCardHTML;
-				break;
-			case '2024':
-				container2024.innerHTML += speakerCardHTML;
-				break;
-			case '2023':
-				container2023.innerHTML += speakerCardHTML;
-				break;
-			case 'spring2023':
-				containerSpring2023.innerHTML += speakerCardHTML;
-				break;
+		const container = containers[speaker.lineup];
+		if (container) {
+			container.innerHTML += speakerCardHTML;
 		}
 	});
 });
